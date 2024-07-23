@@ -182,6 +182,7 @@ def test_register_login(request):
                 login(request, user)
                 # Redirect to a success page or home page
                 return redirect('test')
+                
             else:
                 # Handle invalid login credentials
                 error_message = "Invalid email or password. Please try again."
