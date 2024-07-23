@@ -5,12 +5,11 @@ cffi==1.16.0
 charset-normalizer==3.3.2
 click==8.1.7
 colorama==0.4.6
-cryptography==43.0.0
-defusedxml==0.8.0rc2
-Django==5.0.6
+cryptography==42.0.5
+defusedxml==0.7.1
+Django==4.2.4
 django-crispy-forms==2.3
 django-distill==3.2.4
-django-rest-framework==0.1.0
 djangorestframework==3.15.2
 Flask==3.0.3
 gunicorn==22.0.0
@@ -33,4 +32,4 @@ sqlparse==0.5.0
 tzdata==2024.1
 urllib3==2.2.1
 Werkzeug==3.0.3
-wheel==0.4
+wheel==0.40.0
